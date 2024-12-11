@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Itim&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Spray+Paint&display=swap');
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2vw;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  height: 9vh;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo-img {
+  width: 7vw;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  margin: 0;
+}
+
+.site-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.spacer {
+  width: 7vw; /* Mesmo tamanho do logo para manter equilíbrio */
+}
+
+.menu nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 15vh;
+  align-items: center;
+}
+
+.menu nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem; /* Usando rem para o tamanho da fonte */
+  font-family: "Roboto Condensed", "Oswald", Helvetica, sans-serif;
+}
+
+.menu nav ul li a:hover {
+  text-decoration: underline;
+  /* Efeito de transição para o card (aumento de escala e sombra) */
+  transform: translateY(-10px); /* Eleva o card ao passar o mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais forte ao passar o mouse */
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+/* Exemplo de como aplicar um estilo à classe 'Dezembro Vermelho' */
+.Dezembro.Vermelho {
+  background-color: #f0f0f0;  /* Cor de fundo */
+  color: #333;  /* Cor do texto */
+  padding: 20px; /* Espaçamento interno */
+  font-size: 18px;  /* Tamanho da fonte */
+}
+
+/* Você também pode adicionar outras classes ou elementos para estilizar */
