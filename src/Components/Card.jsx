@@ -10,7 +10,7 @@ const Card = () => {
   const API_URL = "https://ecom-back-strapi.onrender.com/api/movies";
   const TOKEN =
     "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzMzMjM3NjMzLCJleHAiOjE3MzU4Mjk2MzN9.9RAy5Y0N5i3RYzuNlV2g0LxtvQRUTFzRfaNsub9bj78";
-  const SELECTED_IDS = [15, 16, 2, 3, 5, 6, 7, 8, 10, 12, 14, 11];
+  const SELECTED_IDS = [2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
   const headers = {
     Authorization: TOKEN,
